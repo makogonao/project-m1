@@ -1,13 +1,23 @@
 /*Комментарии в CCS пишем так. Не забываем что в первую очередь верстаем мобилку. Андрей*/
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+body {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0;    
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 } 
 /*Бокс-сайзинг от рамки оболочки. по дефолту задаю падинги, марджины по нулям. В последствии с ними будет удобней работать. Погнали))*/
+
+
 /*здесь версия для мобилки*/
 
 /*здесь версия для планшета*/
+@media (min-width:992px) and (max-width: 1279px) {
 
+}
 /*здесь версия для десктопа*/
+@media (min-width: 1280px) {
 
+}
