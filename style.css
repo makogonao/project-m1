@@ -1,23 +1,79 @@
-/*Комментарии в CCS пишем так. Не забываем что в первую очередь верстаем мобилку. Андрей*/
+/*Комментарии в CCS пишем так. Не забываем что в первую очередь верстаем мобилку.
+Рекомендую пользоваться уже готовыми классами. если что то непонятно лучше спросить. у нас пока не Agile. мы готовим качественный продукт и сразу) Андрей*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 
 body {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;    
     font-family: Roboto, Arial, Helvetica, sans-serif;
 } 
-/*Бокс-сайзинг от рамки оболочки. по дефолту задаю падинги, марджины по нулям. В последствии с ними будет удобней работать. Погнали))*/
 
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 /*здесь версия для мобилки*/
+h2 {
+    font-size: 26px;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+.info-container { 
+    margin-left: 36px;
+    margin-right: 36px;
+} 
+
+.format-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-items {
+    margin-bottom: 2em;
+}
+
+.info-items-caption {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info-items-caption a {
+    color: #1E4681;
+}
+
+.info-items-comment {
+    font-size: 10px;
+}
+
+.whatsnew ul{
+    list-style-position: inside;
+    font-size: 12px;
+    padding: 0px;
+}
+
+
+
 
 /*здесь версия для планшета*/
 @media (min-width:992px) and (max-width: 1279px) {
-
+    .info-container { 
+        margin-left: 70px;
+        margin-right: 70px;
+    } 
 }
 /*здесь версия для десктопа*/
 @media (min-width: 1280px) {
-
+    .info-container { 
+        margin-left: 121px;
+        margin-right: 121px;
+    } 
 }
