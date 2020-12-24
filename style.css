@@ -2,6 +2,7 @@
 Рекомендую пользоваться уже готовыми классами. если что то непонятно лучше спросить. у нас пока не Agile. мы готовим качественный продукт и сразу) Андрей*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
     box-sizing: border-box;
@@ -19,6 +20,48 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Димина часть началась*/
+.all-block-curse {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    justify-content:center;
+    width: 376px;
+}
+.zagolovok {
+    font-size: 26px;
+    font-family:'Roboto Slab', serif;
+}
+.recense {
+    padding-left: 21px;
+    padding-right: 21px;
+    width:308px;
+    font-size:10px;
+    font-weight: 400px;
+}
+.down-of-recense {
+    display:flex;
+    width:80%;
+}
+.picture-photo {
+
+}
+.name {
+    margin-top:0;
+    margin-bottom:0;
+}
+.name-and-logo {
+    
+    align-items:center;
+    padding:10px;
+}
+.photo {
+    width:80px;
+}
+.facebook {
+    width: 15px;
+}
+/* Димина часть закончилась*/
 
 /*здесь версия для мобилки*/
 h2 {
