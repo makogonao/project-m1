@@ -71,8 +71,11 @@ h2 {
 
 .programm-items {
     display: flex;
+    height: 170px;
     flex-direction: column;
     margin-bottom: 20px;
+    background-color: chocolate;
+    border-radius: 15px;
 }
 
 .programm-items img {
