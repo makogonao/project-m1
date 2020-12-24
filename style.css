@@ -123,9 +123,13 @@ h2 {
 
 .programm-items img {
     width: 200px;
-
 }
 
+.programm-items-text h4 {
+    margin: 0px;
+    font-size: 14px;
+
+}
 
 
 
