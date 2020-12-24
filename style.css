@@ -63,14 +63,21 @@ h2 {
 .programm-container {
     display:flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 
 
 .programm-items {
-    width: 50%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.programm-items img {
+    width: 200px;
+
 }
 
 
