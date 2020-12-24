@@ -54,11 +54,22 @@ h2 {
     font-size: 10px;
 }
 
-.whatsnew ul{
+.whatsnew ul {
     list-style-position: inside;
     font-size: 12px;
     padding: 0px;
 }
+
+.programm-container {
+    display:flex;
+    flex-direction: column;
+}
+
+.programm-items {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
