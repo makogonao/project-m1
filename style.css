@@ -20,7 +20,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 /* Димина часть началась*/
+
 .all-block-curse {
     display: flex;
     flex-direction: column;
@@ -28,10 +30,12 @@ a:hover {
     justify-content:center;
     width: 376px;
 }
+
 .zagolovok {
     font-size: 26px;
     font-family:'Roboto Slab', serif;
 }
+
 .recense {
     padding-left: 21px;
     padding-right: 21px;
@@ -39,28 +43,31 @@ a:hover {
     font-size:10px;
     font-weight: 400px;
 }
+
 .down-of-recense {
     display:flex;
     width:80%;
 }
-.picture-photo {
 
-}
 .name {
     margin-top:0;
     margin-bottom:0;
 }
+
 .name-and-logo {
     
     align-items:center;
     padding:10px;
 }
+
 .photo {
     width:80px;
 }
+
 .facebook {
     width: 15px;
 }
+
 /* Димина часть закончилась*/
 
 /*здесь версия для мобилки*/
