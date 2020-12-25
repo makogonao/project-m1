@@ -21,6 +21,12 @@ a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    font-size: 26px;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+}
+
+
 /* Димина часть началась*/
 
 .all-block-curse {
@@ -71,16 +77,18 @@ a:hover {
 /* Димина часть закончилась*/
 
 /*здесь версия для мобилки*/
-h2 {
-    font-size: 26px;
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    margin-bottom: 1em;
-}
 
 .info-container { 
-    margin-left: 36px;
-    margin-right: 36px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 70px;
 } 
+
+.info-container h2 {
+    margin: 0;
+    margin-bottom: 1.5em;
+
+}
 
 .format-container{
     display: flex;
@@ -90,10 +98,15 @@ h2 {
 .info-items {
     margin-bottom: 2em;
 }
+.info-items:last-child {
+    margin-bottom: 0;
+}
 
 .info-items-caption {
     font-size: 12px;
     font-weight: bold;
+    line-height: 130%;
+
 }
 
 .info-items-caption a {
@@ -102,56 +115,160 @@ h2 {
 
 .info-items-comment {
     font-size: 10px;
+    line-height: 130%;
+}
+
+.whatsnew{
+    padding-left: 1em;
 }
 
 .whatsnew ul {
     list-style-position: inside;
     font-size: 12px;
     padding: 0px;
+    list-style-position: outside;
+    list-style: disc;
+    margin: 0;
+}
+.whatsnew li {
+    text-indent: ;
 }
 
 .programm-container {
     display:flex;
     flex-direction: column;
     align-items: center;
-
 }
-
-
 
 .programm-items {
     display: flex;
+    width: 200px;
     height: 170px;
     flex-direction: column;
     margin-bottom: 20px;
-    background-color: chocolate;
+    background-color: white;
     border-radius: 15px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
 }
 
 .programm-items img {
-    width: 200px;
+    width: 100%;
 }
 
 .programm-items-text h4 {
     margin: 0px;
+    margin-top: 0.5em;
+    margin-left: 10px;
     font-size: 14px;
+    height: 2.5em;
+}
 
+.programm-items-text p {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 
+/*здесь версия для недопланшета, но перемобилки*/
+@media (min-width:600px) and (max-width: 992px) {
+    .info-container { 
 
+    } 
+    .programm-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .programm-items {
+        margin: 10px;
+    }
 
+    .format-container {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info-items{
+        margin: 0;
+        margin-bottom: 10px;
+        margin-right: 3%;
+        width: 40%;
+    }
+
+}
 /*здесь версия для планшета*/
 @media (min-width:992px) and (max-width: 1279px) {
-    .info-container { 
-        margin-left: 70px;
-        margin-right: 70px;
-    } 
+    
+    h2 {
+        font-size: 32px;
+    }
+
+    .format-container {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .info-items{
+        margin: 0;
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    .info-items-caption {
+        font-size: 15px;
+    }
+
+    .info-items-comment {
+        font-size: 11px;
+    }
+
+    .whatsnew ul {
+        font-size: 14px;
+    }
+
+    .for-resize .info-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .for-resize h2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+        .programm-container {
+        margin: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .programm-items {
+        width: 260px;
+        height: 210px;
+        margin:1.66%;
+        border-radius: 20px;
+    }
+
+    .programm-items-text h4 {
+        margin: 0px;
+        margin-top: 0.5em;
+        margin-left: 10px;
+        font-size: 17px;
+        height: 2.5em;
+    }
+    
+    .programm-items-text p {
+        margin: 0px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
 }
 /*здесь версия для десктопа*/
 @media (min-width: 1280px) {
     .info-container { 
-        margin-left: 121px;
-        margin-right: 121px;
+
     } 
 }
