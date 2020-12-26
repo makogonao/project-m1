@@ -5,9 +5,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 body {
+<<<<<<< HEAD
   box-sizing: border-box;
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+=======
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    min-width: 300px;
+} 
+>>>>>>> e190253eb8d385e71f3113f177235300649bc27b
 
 p {
   margin: 0;
@@ -76,6 +83,7 @@ h2 {
 
 /*здесь версия для мобилки*/
 
+<<<<<<< HEAD
 .info-container {
   margin-left: 10%;
   margin-right: 10%;
@@ -85,6 +93,22 @@ h2 {
 .info-container h2 {
   margin: 0;
   margin-bottom: 1.5em;
+=======
+.info-container { 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+} 
+
+.info-container h2 {
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+.for-resize h2 {
+    margin-left: 10%;
+>>>>>>> e190253eb8d385e71f3113f177235300649bc27b
 }
 
 .format-container {
@@ -147,6 +171,10 @@ h2 {
   box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
 }
 
+.programm-items:last-child {
+    display: none;
+}
+
 .programm-items img {
   width: 100%;
 }
@@ -166,6 +194,7 @@ h2 {
 }
 
 /*здесь версия для недопланшета, но перемобилки*/
+<<<<<<< HEAD
 @media (min-width: 600px) and (max-width: 992px) {
   .info-container {
   }
@@ -198,6 +227,121 @@ h2 {
   h2 {
     font-size: 32px;
   }
+=======
+@media (min-width:600px) and (max-width: 992px) {
+
+    .programm-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 500px;
+    }
+    .programm-items {
+        margin: 10px;
+    }
+
+    .format-container {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info-items{
+        margin: 0;
+        margin-bottom: 10px;
+        margin-right: 3%;
+        width: 40%;
+    }
+
+    .for-resize .info-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+/*здесь версия для планшета*/
+@media (min-width:992px) and (max-width: 1279px) {
+    
+    h2 {
+        font-size: 32px;
+    }
+
+    .format-container {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .info-items{
+        margin: 0;
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    .info-items-caption {
+        font-size: 15px;
+    }
+
+    .info-items-comment {
+        font-size: 11px;
+    }
+
+    .whatsnew ul {
+        font-size: 14px;
+    }
+
+    .for-resize .info-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .for-resize h2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .programm-container {
+        flex-direction: row;
+        flex-wrap: wrap;        
+        justify-content: center;
+        max-width: 1200px;
+    }
+
+    .programm-items {
+        width: 260px;
+        height: 210px;
+        margin:1.66%;
+        border-radius: 20px;
+    }
+
+    .programm-items:last-child {
+        display: flex;
+        
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .programm-items-text h4 {
+        margin: 0px;
+        margin-top: 0.5em;
+        margin-left: 10px;
+        font-size: 17px;
+        height: 2.5em;
+    }
+    
+    .programm-items-text p {
+        margin: 0px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+>>>>>>> e190253eb8d385e71f3113f177235300649bc27b
 
   .format-container {
     display: flex;
@@ -261,6 +405,99 @@ h2 {
 }
 /*здесь версия для десктопа*/
 @media (min-width: 1280px) {
+<<<<<<< HEAD
   .info-container {
   }
+=======
+
+    h2 {
+        font-size: 55px;
+    }
+
+    .format-container {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .info-items{
+        margin: 0;
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    .info-items-caption {
+        font-size: 25px;
+    }
+
+    .info-items-comment {
+        font-size: 18px;
+    }
+
+    .whatsnew ul {
+        font-size: 24px;
+    }
+
+    .for-resize .info-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .for-resize h2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .programm-container {
+        flex-direction: row;
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+
+    .programm-items {
+        width: 30%;
+        max-width: 400px;
+        height: 350px;
+        margin:1.66%;
+        border-radius: 30px;
+    }
+
+    .programm-items:last-child {
+        display: flex;
+        
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .programm-items-text h4 {
+        margin: 0px;
+        margin-top: 0.5em;
+        margin-left: 10px;
+        font-size: 30px;
+        height: 2.5em;
+    }
+    
+    .programm-items-text p {
+        margin: 0px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+>>>>>>> e190253eb8d385e71f3113f177235300649bc27b
+}
+
+/*костыль*/
+@media (min-width: 1878px) {
+    .programm-items:last-child {
+        display: none;
+    }
+}
+/*костыль 2*/
+@media (min-width:1233px) and (max-width: 1279px) {
+    .programm-items:last-child {
+        display: none;
+    }
 }
