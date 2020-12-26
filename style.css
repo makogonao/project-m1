@@ -263,6 +263,7 @@ h2 {
         flex-direction: row;
         flex-wrap: wrap;        
         justify-content: center;
+        max-width: 1200px;
     }
 
     .programm-items {
@@ -295,7 +296,88 @@ h2 {
 }
 /*здесь версия для десктопа*/
 @media (min-width: 1280px) {
-    .info-container { 
 
-    } 
+    h2 {
+        font-size: 55px;
+    }
+
+    .format-container {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .info-items{
+        margin: 0;
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    .info-items-caption {
+        font-size: 25px;
+    }
+
+    .info-items-comment {
+        font-size: 18px;
+    }
+
+    .whatsnew ul {
+        font-size: 24px;
+    }
+
+    .for-resize .info-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .for-resize h2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .programm-container {
+        flex-direction: row;
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+
+    .programm-items {
+        width: 30%;
+        max-width: 400px;
+        height: 350px;
+        margin:1.66%;
+        border-radius: 30px;
+    }
+
+    .programm-items:last-child {
+        display: flex;
+        
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .programm-items-text h4 {
+        margin: 0px;
+        margin-top: 0.5em;
+        margin-left: 10px;
+        font-size: 30px;
+        height: 2.5em;
+    }
+    
+    .programm-items-text p {
+        margin: 0px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+}
+
+/*костыль*/
+@media (min-width: 1878px) {
+    .programm-items:last-child {
+        display: none;
+    }
 }
