@@ -1,8 +1,8 @@
 /*Комментарии в CCS пишем так. Не забываем что в первую очередь верстаем мобилку.
 Рекомендую пользоваться уже готовыми классами. если что то непонятно лучше спросить. у нас пока не Agile. мы готовим качественный продукт и сразу) Андрей*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 body {
     box-sizing: border-box;
@@ -17,16 +17,16 @@ p {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h2 {
-    font-size: 26px;
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -49,8 +49,8 @@ h1 {
 }
 
 .zagolovok {
-    font-size: 26px;
-    font-family:'Roboto Slab', serif;
+  font-size: 26px;
+  font-family: "Roboto Slab", serif;
 }
 
 .recense {
@@ -72,22 +72,46 @@ h1 {
 }
 
 .name {
-    margin-top:0;
-    margin-bottom:0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .name-and-logo {
-    
-    align-items:center;
-    padding:10px;
+  align-items: center;
+  padding: 10px;
 }
 
 .photo {
-    width:80px;
+  width: 80px;
 }
 
 .facebook {
-    width: 15px;
+  width: 15px;
+}
+
+.start-of-curse {
+    background-color: #9DC9C8;
+}
+
+.criteriys {
+    display: flex;
+}
+
+.cost {
+    margin-top: 0;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+.logo-mobile {
+    width: 54px;
+}
+
+.contacts {
+    color: white;
 }
 
 footer {
@@ -180,16 +204,16 @@ footer {
     margin-left: 10%;
 }
 
-.format-container{
-    display: flex;
-    flex-direction: column;
+.format-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .info-items {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 .info-items:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .info-items-caption {
@@ -199,45 +223,45 @@ footer {
 }
 
 .info-items-caption a {
-    color: #1E4681;
+  color: #1e4681;
 }
 
 .info-items-comment {
-    font-size: 10px;
-    line-height: 130%;
+  font-size: 10px;
+  line-height: 130%;
 }
 
-.whatsnew{
-    padding-left: 1em;
+.whatsnew {
+  padding-left: 1em;
 }
 
 .whatsnew ul {
-    list-style-position: inside;
-    font-size: 12px;
-    padding: 0px;
-    list-style-position: outside;
-    list-style: disc;
-    margin: 0;
+  list-style-position: inside;
+  font-size: 12px;
+  padding: 0px;
+  list-style-position: outside;
+  list-style: disc;
+  margin: 0;
 }
 .whatsnew li {
-    text-indent: ;
+  text-indent: ;
 }
 
 .programm-container {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .programm-items {
-    display: flex;
-    width: 200px;
-    height: 170px;
-    flex-direction: column;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 200px;
+  height: 170px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
 }
 
 .programm-items:last-child {
@@ -245,23 +269,22 @@ footer {
 }
 
 .programm-items img {
-    width: 100%;
+  width: 100%;
 }
 
 .programm-items-text h4 {
-    margin: 0px;
-    margin-top: 0.5em;
-    margin-left: 10px;
-    font-size: 14px;
-    height: 2.5em;
+  margin: 0px;
+  margin-top: 0.5em;
+  margin-left: 10px;
+  font-size: 14px;
+  height: 2.5em;
 }
 
 .programm-items-text p {
-    margin: 0px;
-    margin-left: 10px;
-    font-size: 12px;
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 12px;
 }
-
 
 /*здесь версия для недопланшета, но перемобилки*/
 @media (min-width:600px) and (max-width: 992px) {
@@ -378,6 +401,65 @@ footer {
         font-size: 14px;
     }
 
+  .format-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info-items {
+    margin: 0;
+    margin-right: 5%;
+    width: 20%;
+  }
+
+  .info-items-caption {
+    font-size: 15px;
+  }
+
+  .info-items-comment {
+    font-size: 11px;
+  }
+
+  .whatsnew ul {
+    font-size: 14px;
+  }
+
+  .for-resize .info-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .for-resize h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .programm-container {
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .programm-items {
+    width: 260px;
+    height: 210px;
+    margin: 1.66%;
+    border-radius: 20px;
+  }
+
+  .programm-items-text h4 {
+    margin: 0px;
+    margin-top: 0.5em;
+    margin-left: 10px;
+    font-size: 17px;
+    height: 2.5em;
+  }
+
+  .programm-items-text p {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
 }
 /*здесь версия для десктопа*/
 @media (min-width: 1280px) {
