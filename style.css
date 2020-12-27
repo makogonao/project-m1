@@ -5,16 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 body {
-<<<<<<< HEAD
-  box-sizing: border-box;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-}
-=======
     box-sizing: border-box;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     min-width: 300px;
 } 
->>>>>>> e190253eb8d385e71f3113f177235300649bc27b
 
 p {
   margin: 0;
@@ -36,9 +30,11 @@ h2 {
 /* Димина часть началась*/
 
 .all-block-curse {
+  margin-left:auto;
+  margin-right:auto;
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: #EFEFEF;
   justify-content: center;
   width: 376px;
 }
@@ -49,11 +45,15 @@ h2 {
 }
 
 .recense {
+  margin: auto;
   padding-left: 21px;
   padding-right: 21px;
   width: 308px;
   font-size: 10px;
   font-weight: 400px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 13px;
 }
 
 .down-of-recense {
@@ -79,21 +79,35 @@ h2 {
   width: 15px;
 }
 
+.start-of-curse {
+    background-color: #9DC9C8;
+}
+
+.criteriys {
+    display: flex;
+}
+
+.cost {
+    margin-top: 0;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+.logo-mobile {
+    width: 54px;
+}
+
+.contacts {
+    color: white;
+}
+
 /* Димина часть закончилась*/
 
 /*здесь версия для мобилки*/
 
-<<<<<<< HEAD
-.info-container {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 70px;
-}
-
-.info-container h2 {
-  margin: 0;
-  margin-bottom: 1.5em;
-=======
 .info-container { 
     width: 80%;
     margin-left: auto;
@@ -108,7 +122,6 @@ h2 {
 
 .for-resize h2 {
     margin-left: 10%;
->>>>>>> e190253eb8d385e71f3113f177235300649bc27b
 }
 
 .format-container {
@@ -194,40 +207,6 @@ h2 {
 }
 
 /*здесь версия для недопланшета, но перемобилки*/
-<<<<<<< HEAD
-@media (min-width: 600px) and (max-width: 992px) {
-  .info-container {
-  }
-  .programm-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .programm-items {
-    margin: 10px;
-  }
-
-  .format-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .info-items {
-    margin: 0;
-    margin-bottom: 10px;
-    margin-right: 3%;
-    width: 40%;
-  }
-  .camera{
-      display: none;
-  }
-}
-/*здесь версия для планшета*/
-@media (min-width: 992px) and (max-width: 1279px) {
-  h2 {
-    font-size: 32px;
-  }
-=======
 @media (min-width:600px) and (max-width: 992px) {
 
     .programm-container {
@@ -341,7 +320,6 @@ h2 {
         margin-left: 10px;
         font-size: 14px;
     }
->>>>>>> e190253eb8d385e71f3113f177235300649bc27b
 
   .format-container {
     display: flex;
@@ -405,10 +383,6 @@ h2 {
 }
 /*здесь версия для десктопа*/
 @media (min-width: 1280px) {
-<<<<<<< HEAD
-  .info-container {
-  }
-=======
 
     h2 {
         font-size: 55px;
@@ -486,7 +460,6 @@ h2 {
         font-size: 25px;
     }
 
->>>>>>> e190253eb8d385e71f3113f177235300649bc27b
 }
 
 /*костыль*/
