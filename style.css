@@ -42,27 +42,31 @@ h1 {
 /* Димина часть началась*/
 
 .all-block-curse {
-  padding-left: 36px;
-  margin-left:auto;
-  margin-right:auto;
   display: flex;
-  flex-direction: column;
-  background-color: #EFEFEF;
   justify-content: center;
+  background-color: #EFEFEF;
+  padding-top: 42px;
+  padding-left: 36px;
+  padding-right: 32px;
   width: 100%;
-  height: 423px;
+  height: 381px;
 }
 
 .zagolovok {
-  font-size: 26px;
   font-family: "Roboto Slab", serif;
-  margin-top: 0px;
+  margin: 0;
+  margin-bottom: 11px;
+  width: 257px;
+  height: 69px;
+  line-height: 1em;
 }
 
 .recense {
   padding-left: 21px;
   padding-right: 21px;
-  width: 308px;
+  padding-top: 18.47px;
+  width: 266px;
+  height: 229.53px;
   font-size: 10px;
   font-weight: 400px;
   background-color: white;
@@ -72,6 +76,7 @@ h1 {
 
 .down-of-recense {
     display:flex;
+    padding-top: 21.52px;
     width:80%;
     width: 15px;
 }
@@ -91,19 +96,44 @@ h1 {
 }
 
 .facebook {
+  margin-top: 15px;
   width: 15px;
 }
 
 .start-of-curse {
+    display: flex;
+    justify-content: center;
     background-color: #9DC9C8;
-    height: 364px;
+    height: 301px;
     width: 100%;
     margin: auto;
-    padding-left: 57px;
+    padding-left: 36px;
+    padding-top: 62px;
+    padding-right: 32px;
+}
+
+.start {
+    width: 228px;
+    margin-top: 0;
+    line-height: 1em;
 }
 
 .criteriys {
     display: flex;
+}
+
+.any-level-one {
+    width: 140px;
+}
+
+.any-level-two {
+    margin-left: 31px;
+    width: 140px;
+}
+
+.level {
+    font-size: 10px;
+    margin-top: 5px;
 }
 
 .cost {
@@ -113,7 +143,25 @@ h1 {
 footer {
     background-color: black;
     width: 100%;
+    height: 228px;
+    min-height: 227.7px;
     margin: 0;
+    padding-left: 36px;
+    padding-top: 23.3px;
+    padding-right: 32px;
+}
+
+.in-the-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.into-footer {
+  width: 311px;
+}
+
+.logo-mobile {
+    width: 53.59px;
 }
 
 .logo-mobile {
@@ -122,19 +170,23 @@ footer {
 
 .contacts {
     color: white;
+    margin-top: 48px;
+    height: 19px;
 }
 
-footer {
-    background-color: black;
-    width: 100%;
-}
-
-.logo-mobile {
-    width: 54px;
-}
-
-.contacts {
+.down-logo {
     color: white;
+    height: 19px;
+    font-size: 10px;
+    margin-top: 67px;
+}
+
+.contacts img {
+    width: 12.58px;
+}
+
+.social-networks img {
+    width: 15.38px;
 }
 
 /* Димина часть закончилась*/
@@ -566,27 +618,28 @@ footer {
         font-size: 25px;
     }
 
+        /*Часть Дмитрия*/
+    .all-block-curse {
+      width: 100%;
+      padding-left: 126px;
+    }
+
+    .recense {
+      max-width: 791px;
+      max-height: 451px;
+      padding-left: 45px;
+      padding-right: 46px;
+    }
+
+    .start-of-curse {
+      width: 100%;
+    }
+
+    /*Конец части Дмитрия*/
 }
 
 
-/*Часть Дмитрия*/
-.all-block-curse {
-  width: 100%;
-  padding-left: 126px;
-}
 
-.recense {
-  max-width: 791px;
-  max-height: 451px;
-  padding-left: 45px;
-  padding-right: 46px;
-}
-
-.start-of-curse {
-  width: 100%;
-}
-
-/*Конец части Дмитрия*/
 
 /*костыль*/
 @media (min-width: 1878px) {
