@@ -9,6 +9,7 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     min-width: 300px;
     margin: 0;
+    letter-spacing: normal;
 } 
 
 p {
@@ -34,20 +35,13 @@ h1 {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;   
     margin-top: 0.3em;
     margin-bottom: 0.5em;
+    font-weight: 700;
+    width: 292px;
 }
 
 /* Димина часть началась*/
 
 .all-block-curse {
-<<<<<<< Updated upstream
-    margin-left:auto;
-    margin-right:auto;
-    display: flex;
-    background-color: #EFEFEF;
-    flex-direction: column;
-    justify-content: center;
-    width: 376px;
-=======
   padding-left: 36px;
   margin-left:auto;
   margin-right:auto;
@@ -57,7 +51,6 @@ h1 {
   justify-content: center;
   width: 100%;
   height: 423px;
->>>>>>> Stashed changes
 }
 
 .zagolovok {
@@ -67,17 +60,6 @@ h1 {
 }
 
 .recense {
-<<<<<<< Updated upstream
-    margin: auto;
-    padding-left: 21px;
-    padding-right: 21px;
-    width: 308px;
-    font-size: 10px;
-    font-weight: 400px;
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 13px;
-=======
   padding-left: 21px;
   padding-right: 21px;
   width: 308px;
@@ -86,7 +68,6 @@ h1 {
   background-color: white;
   border: 0 solid white;
   border-radius: 13px;
->>>>>>> Stashed changes
 }
 
 .down-of-recense {
@@ -160,6 +141,7 @@ footer {
 
 /*здесь версия для мобилки*/
 
+/*Женина часть*/
 .camera {
     display: none;
 }
@@ -186,26 +168,37 @@ footer {
     justify-content: flex-end;
 }
 
-.citata {
+.citata  {
     display: block;
-    width: 250px;
+    width: 225px;
     background-color: #1E4681;
     border-radius: 3px;
     color: white;
     padding: 15px;
     font-size: 11px;
+    margin-top: 56px;
 }
-
+.producer img {
+  width: 150px;
+}
 .tarkovski {
-    font-size: 11px;
+    font-size: 10px;
     margin-top: 10px;
     text-align: end;
+    font-size: 10px;
 }
-
-.producer img {
-    width: 150px;
+ p.okurse{
+   padding-bottom: 10px;
+   font-size: 12px;
+ }
+.okurse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.operator img{
+  width: 146px;
+}
 .menu ul {
     display: flex;
     list-style-type: none;
@@ -574,6 +567,7 @@ footer {
     }
 
 }
+
 
 /*Часть Дмитрия*/
 .all-block-curse {
