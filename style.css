@@ -5,16 +5,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 body {
-    box-sizing: border-box;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    min-width: 300px;
-    margin: 0;
-    letter-spacing: normal;
-} 
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  min-width: 300px;
+  margin: 0;
+  letter-spacing: normal;
+}
 
 p {
-    margin: 0;
-    font-size: 12px;
+  margin: 0;
+  font-size: 12px;
 }
 
 a {
@@ -31,245 +31,138 @@ h2 {
 }
 
 h1 {
-    font-size: 37px;
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;   
-    margin-top: 0.3em;
-    margin-bottom: 0.5em;
-    font-weight: 700;
-    width: 292px;
+  font-size: 37px;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+  width: 292px;
 }
-
-/* Димина часть началась*/
-
-.all-block-curse {
-    display: flex;
-    justify-content: center;
-    background-color: #EFEFEF;
-    padding-top: 42px;
-    width: 100%;
-    height: 381px;
-  }
-  
-  .zagolovok {
-    font-family: "Roboto Slab", serif;
-    margin: 0;
-    margin-bottom: 11px;
-    width: 257px;
-    height: 69px;
-    line-height: 1em;
-  }
-  
-  .recense {
-    padding-left: 21px;
-    padding-right: 21px;
-    padding-top: 18.47px;
-    width: 266px;
-    height: 229.53px;
-    font-size: 10px;
-    font-weight: 400px;
-    background-color: white;
-    border: 0 solid white;
-    border-radius: 13px;
-  }
-  
-  .down-of-recense {
-      display:flex;
-      padding-top: 21.52px;
-      width:80%;
-      width: 15px;
-  }
-  
-  .name {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  .name-and-logo {
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .photo {
-    width: 80px;
-  }
-  
-  .facebook {
-    margin-top: 15px;
-    width: 15px;
-  }
-  
-  .start-of-curse {
-      display: flex;
-      justify-content: center;
-      background-color: #9DC9C8;
-      height: 301px;
-      width: 100%;
-      margin: auto;
-      padding-top: 62px;
-  }
-  
-  .start {
-      width: 228px;
-      margin-top: 0;
-      line-height: 1em;
-  }
-  
-  .criteriys {
-      display: flex;
-  }
-  
-  .any-level-one {
-      width: 140px;
-  }
-  
-  .any-level-two {
-      margin-left: 31px;
-      width: 140px;
-  }
-  
-  .level {
-      font-size: 10px;
-      margin-top: 5px;
-  }
-  
-  .cost {
-      margin-top: 0;
-  }
-  
-  footer {
-      background-color: black;
-      width: 100%;
-      height: 228px;
-      min-height: 227.7px;
-      margin: 0;
-      padding-top: 23.3px;
-  }
-  
-  .in-the-footer {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .into-footer {
-    width: 311px;
-  }
-  
-  .logo-mobile {
-      width: 53.59px;
-  }
-  
-  .logo-mobile {
-      width: 54px;
-  }
-  
-  .contacts {
-      color: white;
-      margin-top: 48px;
-      height: 19px;
-  }
-  
-  .down-logo {
-      color: white;
-      height: 19px;
-      font-size: 10px;
-      margin-top: 67px;
-  }
-  
-  .contacts img {
-      width: 12.58px;
-  }
-  
-  .social-networks img {
-      width: 15.38px;
-  }
-
-/* Димина часть закончилась*/
 
 /*здесь версия для мобилки*/
 
 /*Женина часть*/
 .camera {
-    display: none;
+  display: none;
 }
 
 .logo {
-    margin-top: 36px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 36px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  min-width: 52px;
+  width: 10%;
+  max-width: 60px;
 }
 
 .menu {
-    display: flex;
-    margin-left: 10%;    
+  display: flex;
+  margin-left: 10%;
 }
 
 .menu img {
- width: 10px;   
+  width: 10px;
 }
 
+.mobile-font {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.desktop-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.desktop-show-camera {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 .producer {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.citata  {
-    display: block;
-    width: 225px;
-    background-color: #1E4681;
-    border-radius: 3px;
-    color: white;
-    padding: 15px;
-    font-size: 11px;
-    margin-top: 56px;
-}
 .producer img {
   width: 150px;
 }
-.tarkovski {
-    font-size: 10px;
-    margin-top: 10px;
-    text-align: end;
-    font-size: 10px;
+
+.citata {
+  margin-left: 0;
+  margin-left: 0;
+  display: block;
+  width: 225px;
+  background-color: #1e4681;
+  border-radius: 3px;
+  color: white;
+  padding: 15px;
+  margin-top: 3em;
+  line-height: 130%;
 }
- p.okurse{
-   padding-bottom: 10px;
-   font-size: 12px;
- }
-.okurse{
+
+.mobile-citata-font {
+  font-size: 11px;
+  line-height: 130%;
+}
+
+.tarkovski {
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: end;
+  font-size: 10px;
+}
+
+p.okurse {
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.okurse {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.operator img{
+.operator img {
   width: 146px;
 }
 .menu ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    font-size: 10px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  font-size: 10px;
 }
 
 .menu li {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
-.info-container { 
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
-} 
+/*Женина чать закончилась*/
+
+/* Часть андрея началась*/
+
+.info-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
 
 .info-container h2 {
-    margin: 0;
-    margin-bottom: 1.5em;
+  margin: 0;
+  margin-bottom: 1.5em;
 }
 
 .for-resize h2 {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 .format-container {
@@ -285,9 +178,9 @@ h1 {
 }
 
 .info-items-caption {
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 130%;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 130%;
 }
 
 .info-items-caption a {
@@ -330,7 +223,7 @@ h1 {
 }
 
 .programm-items:last-child {
-    display: none;
+  display: none;
 }
 
 .programm-items img {
@@ -350,132 +243,420 @@ h1 {
   margin-left: 10px;
   font-size: 12px;
 }
+/* Часть андрея закончилась*/
+
+/* Димина часть началась*/
+
+.all-block-curse {
+  display: flex;
+  background-color: #efefef;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+}
+
+.in-the-block-curse {
+  margin-left: 5%;
+}
+
+.zagolovok {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  margin-bottom: 11px;
+  width: 100%;
+  height: 69px;
+  line-height: 1em;
+}
+
+.recense {
+  padding: 5%;
+  width: 266px;
+  height: 229.53px;
+  font-size: 10px;
+  font-weight: 400px;
+  background-color: white;
+  border: 0 solid white;
+  border-radius: 13px;
+}
+
+.down-of-recense {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+  height: 45%;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.name-and-logo {
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  margin-left: 6%;
+}
+
+.picture-photo {
+  min-width: 80px;
+  width: 35%;
+}
+
+.photo {
+  min-width: 80px;
+  height: 100%;
+}
+
+.facebook {
+  margin-top: 15px;
+  width: 15px;
+}
+
+.start-of-curse {
+  background-color: #9dc9c8;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.all-start-curse {
+  margin-left: 5%;
+}
+
+.start {
+  width: 100%;
+  margin-top: 0;
+  line-height: 1em;
+}
+
+.criteriys {
+  display: flex;
+  width: 100%;
+}
+
+.any-level-one {
+  width: 140px;
+}
+
+.any-level-two {
+  margin-left: 31px;
+  width: 140px;
+}
+
+.level {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.cost {
+  font-size: 37px;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  min-height: 227.7px;
+  margin: 0;
+  padding-top: 3%;
+}
+
+.in-the-footer {
+  display: flex;
+  align-items: space-between;
+  margin-left: 5%;
+  margin-bottom: 0;
+  height: 100%;
+}
+
+.into-footer {
+  width: 311px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.logo-mobile {
+  width: 53.59px;
+}
+
+.logo-mobile {
+  width: 54px;
+}
+
+.contacts {
+  color: white;
+  margin-top: 48px;
+  height: 19px;
+}
+
+.down-logo {
+  color: white;
+  height: 19px;
+  font-size: 10px;
+  margin-top: 67px;
+}
+
+.contacts img {
+  width: 12.58px;
+}
+
+.second-contact {
+  margin-top: 5px;
+}
+
+.social-networks img {
+  width: 15.38px;
+}
+
+/* Димина часть закончилась*/
 
 /*здесь версия для недопланшета, но перемобилки*/
-@media (min-width:600px) and (max-width: 992px) {
+@media (min-width: 600px) and (max-width: 992px) {
+  .programm-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+  }
+  .programm-items {
+    margin: 10px;
+  }
 
-    .programm-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 500px;
-    }
-    .programm-items {
-        margin: 10px;
-    }
+  .format-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-    .format-container {
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .info-items {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 3%;
+    width: 40%;
+  }
 
-    .info-items{
-        margin: 0;
-        margin-bottom: 10px;
-        margin-right: 3%;
-        width: 40%;
-    }
+  .for-resize .info-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
-    .for-resize .info-container {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        
-    }
+  .desktop-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: nowrap;
+  }
+  .producer {
+    display: flex;
+  }
+
+  .producer img {
+    width: 250px;
+  }
+  
+  .mak {
+    display: flex;
+    justify-content: space-between;
+  }
 
 }
 /*здесь версия для планшета*/
-@media (min-width:992px) and (max-width: 1279px) {
-   .menu img {
-    width: 12px;   
-} 
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  /*женина часть*/
+
+  .logo img {
+    min-width: 65px;
+    width: 10%;
+    max-width: 100px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .mobile-font {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .menu img {
+    width: 12px;
+  }
 
   .menu ul {
-  font-size: 12px;
-}
+    font-size: 12px;
+  }
 
   .menu li {
-  margin-right: 30px;
-}
-    
-    h2 {
-        font-size: 32px;
-    }
+    margin-right: 30px;
+  }
 
-    .format-container {
-        display:flex;
-        flex-direction: row;
-    }
+  .desktop-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: nowrap;
+  }
 
-    .info-items{
-        margin: 0;
-        margin-right: 5%;
-        width: 20%;
-    }
+  .producer {
+    display: flex;
+  }
 
-    .info-items-caption {
-        font-size: 15px;
-    }
+  .producer img {
+    width: 250px;
+  }
 
-    .info-items-comment {
-        font-size: 11px;
-    }
+  .parent-format-container {
+    display: flex;
+  }
 
-    .whatsnew ul {
-        font-size: 14px;
-    }
+  .citata {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    border-radius: 5px;
+    padding: 17px;
+  }
 
-    .for-resize .info-container {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        
-    }
+  .mobile-citata-font {
+    font-size: 14px;
+  }
 
-    .for-resize h2 {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+  .tarkovski {
+    font-size: 12px;
+  }
+
+  .okurse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  p.okurse {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .paragrah {
+    padding-right: 10%;
+  }
+
+  .desktop-show-camera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .operator img {
+    width: 250px;
+  }
+
+  .camera img {
+    width: 150px;
+  }
+
+  .camera {
+    display: flex;
+    margin-right: 50px;
+  }
+
+  .parent-format-container {
+    display: flex;
+    flex-direction: column;
+  }
 
 
-    .programm-container {
-        flex-direction: row;
-        flex-wrap: wrap;        
-        justify-content: center;
-        max-width: 1200px;
-    }
+  /*конец женина часть*/
 
-    .programm-items {
-        width: 260px;
-        height: 210px;
-        margin:1.66%;
-        border-radius: 20px;
-    }
+  /*Начало чать андрея*/
 
-    .programm-items:last-child {
-        display: flex;
-        
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    }
+  h2 {
+    font-size: 32px;
+  }
 
-    .programm-items-text h4 {
-        margin: 0px;
-        margin-top: 0.5em;
-        margin-left: 10px;
-        font-size: 17px;
-        height: 2.5em;
-    }
-    
-    .programm-items-text p {
-        margin: 0px;
-        margin-left: 10px;
-        font-size: 14px;
-    }
+  .format-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info-items {
+    margin: 0;
+    margin-right: 5%;
+    width: 20%;
+  }
+
+  .info-items-caption {
+    font-size: 15px;
+  }
+
+  .info-items-comment {
+    font-size: 11px;
+  }
+
+  .whatsnew ul {
+    font-size: 14px;
+  }
+
+  .for-resize .info-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .for-resize h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .programm-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+
+  .programm-items {
+    width: 260px;
+    height: 210px;
+    margin: 1.66%;
+    border-radius: 20px;
+  }
+
+  .programm-items:last-child {
+    display: flex;
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+
+  .programm-items-text h4 {
+    margin: 0px;
+    margin-top: 0.5em;
+    margin-left: 10px;
+    font-size: 17px;
+    height: 2.5em;
+  }
+
+  .programm-items-text p {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
 
   .format-container {
     display: flex;
@@ -536,133 +717,366 @@ h1 {
     margin-left: 10px;
     font-size: 14px;
   }
-}
 
-/*Часть Дмитрия*/
+  .mak {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*Часть Дмитрия*/
+  .all-block-curse {
+    justify-content: flex-start;
+  }
+
+  .zagolovok {
+    width: 572px;
+  }
+
+  .recense {
+    width: 416px;
+    font-size: 12px;
+  }
+
+  .start-of-curse {
+    padding-top: 5%;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .cost {
+    font-size: 46px;
+    margin-bottom: 43px;
+  }
+
+  .start {
+    width: 526px;
+  }
+
+  .without-synchronization {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .contacts {
+    margin: 0;
+  }
+
+  .into-footer {
+    width: 100%;
+  }
+
+  .facebook {
+    width: 18px;
+  }
+
+  .down-logo {
+    margin-top: 100px;
+  }
+
+  .social-networks img {
+    width: 19px;
+  }
+}
 /*Конец части Дмитрия*/
 
 /*здесь версия для десктопа*/
 @media (min-width: 1280px) {
+  /*женина часть началась*/
+
+  .logo img {
+    min-width: 112px;
+    width: 10%;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 628px;
+    line-height: 81, 11px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .mobile-font {
+    font-size: 20px;
+    line-height: 150%;
+  }
+
   .menu img {
-    width: 20px;   
-} 
+    width: 22px;
+  }
 
   .menu ul {
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
 
   .menu li {
-  margin-right: 30px;
+    margin-right: 30px;
+  }
+
+  .desktop-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: nowrap;
+  }
+
+  .producer {
+    display: flex;
+    width: 150%;
+  }
+
+  .producer img {
+    width: 330px;
+  }
+
+  .citata {
+    margin-left: auto;
+    margin-right: auto;
+    width: 465px;
+    border-radius: 7px;
+    padding: 20px;
+  }
+
+  .mobile-citata-font {
+    font-size: 25px;
+  }
+
+  .tarkovski {
+    font-size: 20px;
+  }
+
+  .okurse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  p.okurse {
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .desktop-show-camera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .paragrah {
+    padding-right: 10%;
+  }
+
+  .operator img {
+    width: 314px;
+  }
+
+  .camera img {
+    width: 232px;
+  }
+
+  .camera {
+    display: flex;
+    margin-right: 5%;
+  }
+
+  .parent-format-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /*женина часть закончилась*/
+
+  h2 {
+    font-size: 55px;
+  }
+
+  .format-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info-items {
+    margin: 0;
+    margin-right: 5%;
+    width: 20%;
+  }
+
+  .info-items-caption {
+    font-size: 25px;
+  }
+
+  .info-items-comment {
+    font-size: 18px;
+  }
+
+  .whatsnew ul {
+    font-size: 24px;
+  }
+
+  .for-resize .info-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .for-resize h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .programm-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .programm-items {
+    width: 30%;
+    max-width: 400px;
+    height: 350px;
+    margin: 1.66%;
+    border-radius: 30px;
+  }
+
+  .programm-items:last-child {
+    display: flex;
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+
+  .programm-items-text h4 {
+    margin: 0px;
+    margin-top: 0.5em;
+    margin-left: 10px;
+    font-size: 30px;
+    height: 2.5em;
+  }
+
+  .programm-items-text p {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .mak {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*Часть Дмитрия*/
+  .all-block-curse {
+    width: 100%;
+  }
+
+  .zagolovok {
+    margin-bottom: 5%;
+  }
+
+  .recense {
+    padding: 45px;
+    line-height: 30px;
+    width: 701px;
+    height: 361px;
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .start-of-curse {
+    width: 100%;
+  }
+
+  .cost {
+    font-size: 80px;
+    margin-bottom: 70px;
+  }
+
+  .price {
+    font-size: 25px;
+  }
+
+  .any-level-one {
+    width: 294px;
+  }
+
+  .level-one {
+    font-size: 1.6em;
+  }
+
+  .level {
+    font-size: 18px;
+  }
+
+  .any-level-two {
+    width: 294px;
+  }
+
+  .without-synchronization {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .into-footer {
+    width: 100%;
+  }
+
+  .contacts {
+    margin: 0;
+  }
+
+  .contacts p {
+    font-size: 25px;
+  }
+
+  .facebook {
+    width: 32px;
+  }
+
+  .social-networks img {
+    width: 33px;
+  }
+
+  .contacts p img {
+    width: 27px;
+  }
+
+  .logo-mobile {
+    width: 115px;
+  }
+
+  .down-logo {
+    font-size: 18px;
+  }
+
+  /*Конец части Дмитрия*/
 }
-
-    h2 {
-        font-size: 55px;
-    }
-
-    .format-container {
-        display:flex;
-        flex-direction: row;
-    }
-
-    .info-items{
-        margin: 0;
-        margin-right: 5%;
-        width: 20%;
-    }
-
-    .info-items-caption {
-        font-size: 25px;
-    }
-
-    .info-items-comment {
-        font-size: 18px;
-    }
-
-    .whatsnew ul {
-        font-size: 24px;
-    }
-
-    .for-resize .info-container {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .for-resize h2 {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-
-    .programm-container {
-        flex-direction: row;
-        flex-wrap: wrap;        
-        justify-content: center;
-    }
-
-    .programm-items {
-        width: 30%;
-        max-width: 400px;
-        height: 350px;
-        margin:1.66%;
-        border-radius: 30px;
-    }
-
-    .programm-items:last-child {
-        display: flex;
-        
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    }
-
-    .programm-items-text h4 {
-        margin: 0px;
-        margin-top: 0.5em;
-        margin-left: 10px;
-        font-size: 30px;
-        height: 2.5em;
-    }
-    
-    .programm-items-text p {
-        margin: 0px;
-        margin-left: 10px;
-        font-size: 25px;
-    }
-
-        /*Часть Дмитрия*/
-    .all-block-curse {
-      width: 100%;
-      padding-left: 126px;
-    }
-
-    .recense {
-      max-width: 791px;
-      max-height: 451px;
-      padding-left: 45px;
-      padding-right: 46px;
-    }
-
-    .start-of-curse {
-      width: 100%;
-    }
-
-    /*Конец части Дмитрия*/
-}
-
-
-
 
 /*костыль*/
 @media (min-width: 1878px) {
-    .programm-items:last-child {
-        display: none;
-    }
+  .programm-items:last-child {
+    display: none;
+  }
 }
 /*костыль 2*/
-@media (min-width:1233px) and (max-width: 1279px) {
-    .programm-items:last-child {
-        display: none;
-    }
+@media (min-width: 1233px) and (max-width: 1279px) {
+  .programm-items:last-child {
+    display: none;
+  }
 }
